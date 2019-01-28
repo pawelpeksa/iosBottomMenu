@@ -64,6 +64,7 @@
 		E59BA86D21FE510D000EC8C7 /* BottomMenu */ = {
 			isa = PBXGroup;
 			children = (
+				E59BA88A21FF90B0000EC8C7 /* Menus */,
 				E59BA86E21FE510D000EC8C7 /* AppDelegate.swift */,
 				E59BA87021FE510D000EC8C7 /* ViewController.swift */,
 				E59BA87221FE510D000EC8C7 /* Main.storyboard */,
@@ -71,12 +72,19 @@
 				E59BA87721FE5111000EC8C7 /* LaunchScreen.storyboard */,
 				E59BA88021FE5181000EC8C7 /* interesting-facts-about-love-105.jpg */,
 				E59BA87A21FE5111000EC8C7 /* Info.plist */,
+			);
+			path = BottomMenu;
+			sourceTree = "<group>";
+		};
+		E59BA88A21FF90B0000EC8C7 /* Menus */ = {
+			isa = PBXGroup;
+			children = (
 				E59BA88221FE5214000EC8C7 /* MainMenuVC.swift */,
 				E59BA88321FE5214000EC8C7 /* MainMenuVC.xib */,
 				E59BA88621FE5EDB000EC8C7 /* OverlayMenuVC.swift */,
 				E59BA88721FE5EDB000EC8C7 /* OverlayMenuVC.xib */,
 			);
-			path = BottomMenu;
+			path = Menus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
