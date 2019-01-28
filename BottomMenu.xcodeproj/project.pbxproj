@@ -12,11 +12,11 @@
 		E59BA87421FE510D000EC8C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59BA87221FE510D000EC8C7 /* Main.storyboard */; };
 		E59BA87621FE5111000EC8C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E59BA87521FE5111000EC8C7 /* Assets.xcassets */; };
 		E59BA87921FE5111000EC8C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59BA87721FE5111000EC8C7 /* LaunchScreen.storyboard */; };
-		E59BA88121FE5181000EC8C7 /* interesting-facts-about-love-105.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E59BA88021FE5181000EC8C7 /* interesting-facts-about-love-105.jpg */; };
 		E59BA88421FE5214000EC8C7 /* MainMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59BA88221FE5214000EC8C7 /* MainMenuVC.swift */; };
 		E59BA88521FE5214000EC8C7 /* MainMenuVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E59BA88321FE5214000EC8C7 /* MainMenuVC.xib */; };
 		E59BA88821FE5EDB000EC8C7 /* OverlayMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59BA88621FE5EDB000EC8C7 /* OverlayMenuVC.swift */; };
 		E59BA88921FE5EDB000EC8C7 /* OverlayMenuVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E59BA88721FE5EDB000EC8C7 /* OverlayMenuVC.xib */; };
+		E59BA88C21FFB661000EC8C7 /* interesting-facts-about-love-105.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E59BA88B21FFB660000EC8C7 /* interesting-facts-about-love-105.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +27,11 @@
 		E59BA87521FE5111000EC8C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E59BA87821FE5111000EC8C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E59BA87A21FE5111000EC8C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E59BA88021FE5181000EC8C7 /* interesting-facts-about-love-105.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "interesting-facts-about-love-105.jpg"; path = "../../../interesting-facts-about-love-105.jpg"; sourceTree = "<group>"; };
 		E59BA88221FE5214000EC8C7 /* MainMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuVC.swift; sourceTree = "<group>"; };
 		E59BA88321FE5214000EC8C7 /* MainMenuVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenuVC.xib; sourceTree = "<group>"; };
 		E59BA88621FE5EDB000EC8C7 /* OverlayMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayMenuVC.swift; sourceTree = "<group>"; };
 		E59BA88721FE5EDB000EC8C7 /* OverlayMenuVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OverlayMenuVC.xib; sourceTree = "<group>"; };
+		E59BA88B21FFB660000EC8C7 /* interesting-facts-about-love-105.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "interesting-facts-about-love-105.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +70,8 @@
 				E59BA87221FE510D000EC8C7 /* Main.storyboard */,
 				E59BA87521FE5111000EC8C7 /* Assets.xcassets */,
 				E59BA87721FE5111000EC8C7 /* LaunchScreen.storyboard */,
-				E59BA88021FE5181000EC8C7 /* interesting-facts-about-love-105.jpg */,
 				E59BA87A21FE5111000EC8C7 /* Info.plist */,
+				E59BA88B21FFB660000EC8C7 /* interesting-facts-about-love-105.jpg */,
 			);
 			path = BottomMenu;
 			sourceTree = "<group>";
@@ -146,11 +146,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E59BA88521FE5214000EC8C7 /* MainMenuVC.xib in Resources */,
+				E59BA88C21FFB661000EC8C7 /* interesting-facts-about-love-105.jpg in Resources */,
 				E59BA87921FE5111000EC8C7 /* LaunchScreen.storyboard in Resources */,
 				E59BA87621FE5111000EC8C7 /* Assets.xcassets in Resources */,
 				E59BA87421FE510D000EC8C7 /* Main.storyboard in Resources */,
 				E59BA88921FE5EDB000EC8C7 /* OverlayMenuVC.xib in Resources */,
-				E59BA88121FE5181000EC8C7 /* interesting-facts-about-love-105.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
