@@ -12,14 +12,14 @@ class ViewController: UIViewController, MainMenuDelegate, OverlayMenuDelegate {
     
     @IBOutlet weak var menuView: UIView!
     
-    var mainMenuVC = MainMenuVC.init(nibName: "MainMenuVC", bundle: Bundle.main)
-    var overlayMenuVC = OverlayMenuVC.init(nibName: "OverlayMenuVC", bundle: Bundle.main)
+    private var mainMenuVC = MainMenuVC(nibName: "MainMenuVC", bundle: Bundle.main)
+    private var overlayMenuVC = OverlayMenuVC(nibName: "OverlayMenuVC", bundle: Bundle.main)
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.addChildrenVCs()
-        self.showMainMenu()
         self.setMenusDelegates()
+        self.showMainMenu()
     }
     
     func setMenusDelegates() {
